@@ -21,7 +21,7 @@
         "guzzlehttp/oauth-subscriber": "^0.3.0",
         "nesbot/carbon": "^1.21",
         "incoming/incoming": "^0.2.1",
-        "nokimaro/draperstudio-payload": "^0.1.0",
+        "nokimaro/draperstudio-payload": "*",
         "league/container": "^2.2",
         "somoza/oauth2-client-middleware": "^0.2.5"
     },
