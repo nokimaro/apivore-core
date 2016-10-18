@@ -1,5 +1,5 @@
 {
-    "name": "apivore/core",
+    "name": "nokimaro/apivore-core",
     "type": "library",
     "description": "Core provides a unified interface for building API Clients",
     "keywords": [
@@ -21,7 +21,7 @@
         "guzzlehttp/oauth-subscriber": "^0.3.0",
         "nesbot/carbon": "^1.21",
         "incoming/incoming": "^0.2.1",
-        "draperstudio/payload": "^0.1.0",
+        "nokimaro/draperstudio-payload": "^0.1.0",
         "league/container": "^2.2",
         "somoza/oauth2-client-middleware": "^0.2.5"
     },
