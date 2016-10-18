@@ -1,0 +1,59 @@
+{
+    "name": "apivore/core",
+    "type": "library",
+    "description": "Core provides a unified interface for building API Clients",
+    "keywords": [
+        "apivore",
+        "core"
+    ],
+    "homepage": "https://github.com/apivore/core",
+    "license": "MIT",
+    "authors": [{
+        "name": "DraperStudio",
+        "email": "hello@draperstudio.tech",
+        "homepage": "http://draperstudio.tech",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "illuminate/support": "^5.2",
+        "guzzlehttp/guzzle": "^6.2",
+        "guzzlehttp/oauth-subscriber": "^0.3.0",
+        "nesbot/carbon": "^1.21",
+        "incoming/incoming": "^0.2.1",
+        "draperstudio/payload": "^0.1.0",
+        "league/container": "^2.2",
+        "somoza/oauth2-client-middleware": "^0.2.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.4",
+        "phpunit/phpunit": "^5.0",
+        "scrutinizer/ocular": "~1.1",
+        "squizlabs/php_codesniffer": "~2.3",
+        "symfony/var-dumper": "^3.0",
+        "symfony/debug": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Apivore\\Core\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Apivore\\Tests\\Core\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
